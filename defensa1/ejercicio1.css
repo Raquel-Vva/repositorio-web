@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    color: rgba(53, 143, 221, 0.105);
+}
+/* Flexbox */
+.header, .slider, .section_inf, .section_galeria, .footer {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.header, .footer {
+    justify-content: space-between;
+    background-color: rgb(77, 164, 236);
+    width: 100%;
+    height: 40px;
+}
+
+.slider_contenido {
+    background-color: rgb(234, 45, 121);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding: 20px;
+}
+
+.inf{
+
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+}
+.card1{
+    background-color: aqua;
+    width: 30%;
+    margin: 8px;
+    padding: 10px;
+}
+.card2{
+    background-color: aqua;
+    width: 30%;
+    margin: 8px;
+    padding: 10px;
+}
+.card3{
+    background-color: aqua;
+    width: 30%;
+    margin: 8px;
+    padding: 10px;
+}
+
+.section_galeria {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section_galeria .imagen {
+    background-color: lightgray;
+    text-align: center;
+    line-height: 150px;
+    margin: 10px;
+}
+.section_galeria .imagen-grande{
+    height: auto;
+    width: 32%;
+    margin-bottom: 10px;
+}
+.section_galeria .contenedor-horizontal{
+    justify-content: space-between;
+    width: 65%;
+    margin-bottom: 10px;
+}
+.section_galeria .imagen-horizontal{
+    width: 100%;
+    height: auto;
+    background-color: rgb(225, 171, 35);
+}
+.footer {
+    justify-content: space-between;
+    padding: 20px;
+}
