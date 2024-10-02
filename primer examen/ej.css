@@ -1,0 +1,150 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid;
+    border-color: black;
+    height: 100%;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: blue;
+    border: 2px solid;
+    border-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(81, 234, 232);
+    border: 2px solid;
+    border-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+.silder{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(246, 224, 56);
+    border: 2px solid;
+    border-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor1{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    border: 2px solid;
+    border-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+.tabla1{
+    display: flex;
+    width: 50%;
+    height: 93%;
+    background-color: chartreuse;
+    padding: 3px;
+    margin: 10px;
+}
+.ld{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+    padding: 3px;
+    margin: 3px; 
+}
+.titulo{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(64, 120, 8);
+    padding: 1px;
+    margin: 1px;
+}
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 85%;
+}
+.tarjeta1{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(98, 184, 11);
+    margin: 1px;
+    padding: 3px;
+}
+.tarjeta2{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(186, 243, 130);
+    padding: 3px;
+    margin: 1px;
+}
+.contenedor2{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    border: 2px solid;
+    border-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+.tabla2{
+    display: flex;
+    width: 50%;
+    height: 93%;
+    background-color: rgb(215, 218, 212);
+    padding: 3px;
+    margin: 10px;
+}
+.ld2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+    padding: 3px;
+    margin: 3px;  
+}
+.titulo2{
+    display: flex;
+    width: 100%;
+    height: 38%;
+    background-color: rgb(120, 8, 107);
+    padding: 1px;
+    margin: 4px;
+}
+.formulario{
+    display: flex;
+    width: 100%;
+    height: 55%;
+    background-color: rgb(231, 99, 215);
+    padding: 1px;
+    margin: 4px;
+}
+.contenedor3{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    border: 2px solid;
+    border-color: black;
+    padding: 10px;
+    margin: 10px; 
+}
+.tarjeta3{
+    display: flex;
+    width: 25%;
+    height: 95%;
+    background-color: rgb(243, 125, 78);
+    padding: 1px;
+    margin: 4px;
+}
