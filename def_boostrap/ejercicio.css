@@ -1,0 +1,12 @@
+.tab_img{
+    display: flex;
+    flex-direction: row;
+}
+.tabla{
+    width: 55%;
+    border: solid cornflowerblue
+}
+.img-thumbnail{
+    width: 40%;
+    height: 80%;
+}
